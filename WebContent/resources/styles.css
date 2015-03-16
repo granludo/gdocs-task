@@ -1,0 +1,229 @@
+@CHARSET "UTF-8";
+
+
+/*  General Stuff */
+    
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: Times, serif;
+    font-style: italic;
+    color: #3366CC;
+}
+
+a {
+    color: #3366CC;
+}
+
+.tableHeaderLink a{
+    color: white;
+}
+
+.tableHeaderLink a:hover {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF6600;
+}
+
+.leftalign {
+    min-width: 150px;
+    float: left;
+}
+
+/* Wait js related */
+.hiddenwait {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wait {
+    display: block;
+    text-align: center;
+}
+
+/* Images */
+.logo {
+    float: right;
+}
+
+.icon {
+    width: 45px;
+}
+
+.header{
+    width: 300px;
+    margin-bottom: 30px;
+}
+/* Forms related */
+
+.error {
+    color: red;
+    display: block;
+    margin-left: 13em;
+}
+
+.formrow{
+    padding: 10px;    
+}
+
+.radiobuttonrow{
+    padding: 3px;
+    text-align: left;
+    float: left;
+    margin-left: 140px;
+}
+
+.formurl {
+    width: 25em;
+}
+
+label{
+    width: 10em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block
+}
+
+.expand {
+    float: left;
+}
+
+.success {
+    background-color: #CCFFCC;
+    background-image: url("../resources/success.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    color: #339900;
+    margin: 10px 0 10px 25px;
+    padding: 15px 10px 15px 50px;
+    width: 30%;
+}
+
+.warning {
+    background-color: #FFCC99;
+    background-image: url("../resources/warning.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    color: #FF6600;
+    margin: 10px 0 10px 25px;
+    padding: 15px 10px 15px 50px;
+    width: 30%;
+}
+
+.submit input{
+    margin-left: 15em;
+}
+
+.gradeform fieldset{
+    width: 100%;
+}
+
+.deletegrade{
+
+}
+
+fieldset{
+    border: 1px solid;
+    width: 50%;
+    margin: 2px;
+}
+
+.top{
+    width: 100%;
+    min-height: 250px;
+}
+
+.right{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.navigation{
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.centerfooter{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 80%;
+}
+    
+.footerimage{
+    width: 100px;
+}
+
+.docinfo{
+    float: left;
+    width: 60%;
+}
+
+.toolbar{
+    float: right;
+    width: 40%;
+}
+
+.notification{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#gdocsframe iframe{
+    width: 100%;
+    height: 500px;
+}
+
+/* OTHER */
+
+#submissions{    
+    border: 1px solid;
+    /*border-collapse: collapse;*/
+    width: 90%;
+    margin: auto;
+}
+
+#submissions th{
+    border: 1px solid;
+    padding: 10px;
+    
+}
+
+#submissions td{    
+    text-align: center;
+    padding: 5px;
+}
+
+#submissions thead{
+    background-color: #6699CC;
+}
+
+#submissions .doctitle{
+    text-align:left;
+    padding-left:15px;
+}
+
+.odd{
+    background-color: #CCCCCC ; 
+}
+
+.even{
+    background-color: #FFFFFF;
+}
+    
